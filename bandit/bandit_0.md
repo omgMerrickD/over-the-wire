@@ -100,3 +100,5 @@ irc.overthewire.org.
   Enjoy your stay!
 
 ```
+### Comments
+Nothing much to it.  SSH to the remote server. Had to refresh on some of the syntax for ``` ssh ```.  A simple ``` man ssh ``` does the trick!
