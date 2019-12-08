@@ -1,5 +1,7 @@
 # Bandit 0
+
 ### My solution
+
 ```
 ssh root@null:~# ssh bandit0@bandit.labs.overthewire.org -p2220
 ```
@@ -13,24 +15,24 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
 Warning: Permanently added '[bandit.labs.overthewire.org]:2220,[176.9.9.172]:2220' (ECDSA) to the list of known hosts.
 This is a OverTheWire game server. More information on http://www.overthewire.org/wargames
 
-bandit0@bandit.labs.overthewire.org's password: 
+bandit0@bandit.labs.overthewire.org's password:
 Linux bandit 4.18.12 x86_64 GNU/Linux
-               
-      ,----..            ,----,          .---. 
+
+      ,----..            ,----,          .---.
      /   /   \         ,/   .`|         /. ./|
     /   .     :      ,`   .'  :     .--'.  ' ;
    .   /   ;.  \   ;    ;     /    /__./ \ : |
   .   ;   /  ` ; .'___,/    ,' .--'.  '   \' .
-  ;   |  ; \ ; | |    :     | /___/ \ |    ' ' 
-  |   :  | ; | ' ;    |.';  ; ;   \  \;      : 
+  ;   |  ; \ ; | |    :     | /___/ \ |    ' '
+  |   :  | ; | ' ;    |.';  ; ;   \  \;      :
   .   |  ' ' ' : `----'  |  |  \   ;  `      |
-  '   ;  \; /  |     '   :  ;   .   \    .\  ; 
+  '   ;  \; /  |     '   :  ;   .   \    .\  ;
    \   \  ',  /      |   |  '    \   \   ' \ |
     ;   :    /       '   :  |     :   '  |--"  
-     \   \ .'        ;   |.'       \   \ ;     
-  www. `---` ver     '---' he       '---" ire.org     
-               
-              
+     \   \ .'        ;   |.'       \   \ ;
+  www. `---` ver     '---' he       '---" ire.org
+
+
 Welcome to OverTheWire!
 
 If you find any problems, please report them to Steven or morla on
@@ -38,7 +40,7 @@ irc.overthewire.org.
 
 --[ Playing the games ]--
 
-  This machine might hold several wargames. 
+  This machine might hold several wargames.
   If you are playing "somegame", then:
 
     * USERNAMES are somegame0, somegame1, ...
@@ -49,16 +51,16 @@ irc.overthewire.org.
   working directory with a hard-to-guess name in /tmp/.  You can use the
   command "mktemp -d" in order to generate a random and hard to guess
   directory in /tmp/.  Read-access to both /tmp/ and /proc/ is disabled
-  so that users can not snoop on eachother. Files and directories with 
+  so that users can not snoop on eachother. Files and directories with
   easily guessable or short names will be periodically deleted!
 
   Please play nice:
-      
+
     * don't leave orphan processes running
     * don't leave exploit-files laying around
     * don't annoy other players
     * don't post passwords or spoilers
-    * again, DONT POST SPOILERS! 
+    * again, DONT POST SPOILERS!
       This includes writeups of your solution on your blog or website!
 
 --[ Tips ]--
@@ -69,7 +71,7 @@ irc.overthewire.org.
 
     -m32                    compile for 32bit
     -fno-stack-protector    disable ProPolice
-    -Wl,-z,norelro          disable relro 
+    -Wl,-z,norelro          disable relro
 
   In addition, the execstack tool can be used to flag the stack as
   executable on ELF binaries.
@@ -100,5 +102,7 @@ irc.overthewire.org.
   Enjoy your stay!
 
 ```
+
 ### Comments
-Nothing much to it.  SSH to the remote server. Had to refresh on some of the syntax for ``` ssh ```.  A simple ``` man ssh ``` does the trick!
+
+Nothing much to it.  SSH to the remote server. Had to refresh on some of the syntax for ```ssh```.  A simple ```man ssh``` does the trick!
